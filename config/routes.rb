@@ -1,7 +1,11 @@
 Rails3DeviseRspecCucumber::Application.routes.draw do
+  resources :web_projects
+
+   get "welcome/index"
+
   #get \"users\/show\"
 
-  root :to => "home#index"
+  root :to => 'welcome#index'
 
   devise_for :users
   resources :users, :only => :show

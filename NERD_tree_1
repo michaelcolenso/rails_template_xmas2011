@@ -1,0 +1,82 @@
+" Press ? for help
+
+.. (up a dir)
+<lcolenso/Projects/rails_template_xmas2011/
+▼ app/
+  ▶ assets/
+  ▶ controllers/
+  ▶ helpers/
+  ▶ mailers/
+  ▶ models/
+  ▼ views/
+    ▼ devise/
+      ▼ confirmations/
+        new.html.erb
+        new.html.haml
+      ▼ mailer/
+        confirmation_instructions.html.erb
+        reset_password_instructions.html.erb
+        unlock_instructions.html.erb
+      ▼ passwords/
+        edit.html.erb
+        new.html.erb
+      ▼ registrations/
+        edit.html.erb
+        edit.html.haml
+        new.html.erb
+        new.html.haml
+      ▼ sessions/
+        new.html.erb
+        new.html.haml
+      ▼ shared/
+        _links.erb
+        _links.haml
+      ▼ unlocks/
+        new.html.erb
+        new.html.haml
+    ▼ home/
+      index.html.erb
+      index.html.haml
+    ▼ layouts/
+      application.html.erb
+      application.html.haml
+    ▼ my_sites/
+      _form.html.erb
+      _form.html.haml
+      edit.html.erb
+      edit.html.haml
+      index.html.erb
+      index.html.haml
+      new.html.erb
+      new.html.haml
+      show.html.erb
+      show.html.haml
+    ▼ shared/
+      _navigation.html.erb
+      _navigation.html.haml
+    ▼ users/
+      show.html.erb
+      show.html.haml
+    ▼ welcome/
+      index.html.erb
+▶ config/
+▶ db/
+▶ features/
+▶ lib/
+▶ log/
+▶ public/
+▶ script/
+▶ spec/
+▶ tmp/
+▶ vendor/
+config.ru
+confirmation_instructions.html.haml
+edit.html.haml
+Gemfile
+Gemfile.lock
+new.html.haml
+Rakefile
+README
+README.textile
+reset_password_instructions.html.haml
+unlock_instructions.html.haml

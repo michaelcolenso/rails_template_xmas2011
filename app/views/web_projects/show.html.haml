@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @web_project.name
+%p
+  %b Client:
+  = @web_project.client
+
+= link_to 'Edit', edit_web_project_path(@web_project)
+\|
+= link_to 'Back', web_projects_path

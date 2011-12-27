@@ -1,0 +1,21 @@
+%h1 Listing web_projects
+
+%table
+  %tr
+    %th Name
+    %th Client
+    %th
+    %th
+    %th
+
+  - @web_projects.each do |web_project|
+    %tr
+      %td= web_project.name
+      %td= web_project.client
+      %td= link_to 'Show', web_project
+      %td= link_to 'Edit', edit_web_project_path(web_project)
+      %td= link_to 'Destroy', web_project, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Web project', new_web_project_path

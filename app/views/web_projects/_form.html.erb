@@ -1,0 +1,10 @@
+<%= semantic_form_for @web_project do |f| %>
+    <%= f.semantic_errors %>
+    <%= f.inputs do %>
+            <%= f.input :name,   :hint => "Enter the dude's name" %>
+            <%= f.input :client, :hint => "hint" %>
+    <% end %>
+    <%= f.buttons do %>
+      <%= f.commit_button :button_html => {:class => "primary"} %>
+    <% end %>
+  <% end %>
